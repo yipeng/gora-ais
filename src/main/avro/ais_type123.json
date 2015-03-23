@@ -1,0 +1,72 @@
+{
+  "fields": [
+    {
+      "name": "messageType", 
+      "type": "int"
+    }, 
+    {
+      "name": "repeatIndicator", 
+      "type": "int"
+    }, 
+    {
+      "name": "mmsi", 
+      "type": "int"
+    }, 
+    {
+      "name": "navStatus", 
+      "type": "string"
+    }, 
+    {
+      "name": "rot", 
+      "type": "int"
+    }, 
+    {
+      "name": "sog", 
+      "type": "int"
+    }, 
+    {
+      "name": "posAccuracy", 
+      "type": "string"
+    }, 
+    {
+      "name": "longitude", 
+      "type": "float"
+    }, 
+    {
+      "name": "latitude", 
+      "type": "float"
+    }, 
+    {
+      "name": "cog", 
+      "type": "string"
+    }, 
+    {
+      "name": "trueHeading", 
+      "type": "int"
+    }, 
+    {
+      "name": "timestamp", 
+      "type": "string"
+    }, 
+    {
+      "name": "maneuverIndicator", 
+      "type": "string"
+    }, 
+    {
+      "name": "spare", 
+      "type": "string"
+    }, 
+    {
+      "name": "raim", 
+      "type": "string"
+    }, 
+    {
+      "name": "radio_status", 
+      "type": "string"
+    }
+  ], 
+  "name": "AisType123", 
+  "namespace": "ais.type.one.two.three", 
+  "type": "record"
+}
+

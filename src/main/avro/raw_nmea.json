@@ -1,0 +1,40 @@
+{
+  "fields": [
+    {
+      "name": "packetType", 
+      "type": "string"
+    }, 
+    {
+      "name": "fragmentCount", 
+      "type": "string"
+    }, 
+    {
+      "name": "fragmentNum", 
+      "type": "string"
+    }, 
+    {
+      "name": "messageId", 
+      "type": "string"
+    }, 
+    {
+      "name": "channelCode", 
+      "type": "string"
+    }, 
+    {
+      "name": "dataPayload", 
+      "type": "string"
+    }, 
+    {
+      "name": "padding", 
+      "type": "string"
+    }, 
+    {
+      "name": "checksum", 
+      "type": "string"
+    }
+  ], 
+  "name": "RawNMEA", 
+  "namespace": "ais.raw.nmea", 
+  "type": "record"
+}
+

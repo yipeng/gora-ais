@@ -1,0 +1,16 @@
+org/apache/gora/tutorial/log/LogAnalytics$LogAnalyticsReducer.class
+org/apache/gora/tutorial/log/generated/Pageview.class
+org/apache/gora/tutorial/log/generated/MetricDatum$1.class
+org/apache/gora/tutorial/log/LogManager.class
+org/apache/gora/tutorial/log/TextLong.class
+org/apache/gora/tutorial/log/LogAnalytics.class
+org/apache/gora/tutorial/log/generated/Pageview$Builder.class
+org/apache/gora/tutorial/log/LogAnalytics$LogAnalyticsMapper.class
+org/apache/gora/tutorial/log/KeyValueWritable.class
+org/apache/gora/tutorial/log/generated/Pageview$Field.class
+org/apache/gora/tutorial/log/generated/MetricDatum$Field.class
+org/apache/gora/tutorial/log/generated/MetricDatum$Builder.class
+org/apache/gora/tutorial/log/generated/MetricDatum$Tombstone.class
+org/apache/gora/tutorial/log/generated/Pageview$Tombstone.class
+org/apache/gora/tutorial/log/generated/Pageview$1.class
+org/apache/gora/tutorial/log/generated/MetricDatum.class

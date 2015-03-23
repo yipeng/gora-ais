@@ -1,0 +1,6 @@
+/home/yipeng/src/apache-gora-0.6/gora-tutorial/src/main/java/org/apache/gora/tutorial/log/LogManager.java
+/home/yipeng/src/apache-gora-0.6/gora-tutorial/src/main/java/org/apache/gora/tutorial/log/generated/Pageview.java
+/home/yipeng/src/apache-gora-0.6/gora-tutorial/src/main/java/org/apache/gora/tutorial/log/KeyValueWritable.java
+/home/yipeng/src/apache-gora-0.6/gora-tutorial/src/main/java/org/apache/gora/tutorial/log/generated/MetricDatum.java
+/home/yipeng/src/apache-gora-0.6/gora-tutorial/src/main/java/org/apache/gora/tutorial/log/LogAnalytics.java
+/home/yipeng/src/apache-gora-0.6/gora-tutorial/src/main/java/org/apache/gora/tutorial/log/TextLong.java
