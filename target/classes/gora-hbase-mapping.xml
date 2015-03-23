@@ -22,20 +22,19 @@
 <gora-otd>
 
   <table name="RawNMEA"> <!-- optional descriptors for tables -->
-    <family name="common"/> <!-- This can also have params like compression, bloom filters -->
-    <family name="http"/>
-    <family name="misc"/>
+    <family name="pri"/> <!-- This can also have params like compression, bloom filters -->
+    <family name="sec"/>
   </table>
   
- <class name="ais.raw.nmea.RawNMEA" keyClass="java.lang.Long" table="RawNmeaSample2">
-    <field name="packetType" family="common" qualifier="packetType"/>
-    <field name="fragmentCount" family="common" qualifier="fragmentCount"/>
-    <field name="fragmentNum" family="common" qualifier="fragmentNum" />
-    <field name="messageId" family="http" qualifier="messageId"/>
-    <field name="channelCode" family="http" qualifier="channelCode"/>
-    <field name="dataPayload" family="http" qualifier="dataPayload"/>
-    <field name="padding" family="misc" qualifier="padding"/>
-    <field name="checksum" family="misc" qualifier="checksum"/>
+ <class name="ais.raw.nmea.RawNMEA" keyClass="java.lang.Long" table="RawNmeaSample3">
+    <field name="packetType" family="sec" qualifier="packetType"/>
+    <field name="fragmentCount" family="pri" qualifier="fragmentCount"/>
+    <field name="fragmentNum" family="pri" qualifier="fragmentNum" />
+    <field name="messageId" family="pri" qualifier="messageId"/>
+    <field name="channelCode" family="sec" qualifier="channelCode"/>
+    <field name="dataPayload" family="pri" qualifier="dataPayload"/>
+    <field name="padding" family="sec" qualifier="padding"/>
+    <field name="checksum" family="sec" qualifier="checksum"/>
   </class>
   
 </gora-otd>
